@@ -8,7 +8,9 @@ let obj = {
     age: 12,
 };
 
-let { name, address: { city, state, street }, age } = obj;
+// Destructuring assignment to extract values from the object
+
+let { name, address: { city, state, street }, age } = obj; 
 console.log(name);
 console.log(city);
 

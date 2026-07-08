@@ -1,5 +1,10 @@
 // ===== Creates a new array with all elements that pass the test implemented by the provided function. =====
 
+/* IMP :- 
+    Filter atleast returns a new array with elements that satisfy the condition in the callback function. 
+    If no elements satisfy the condition, it returns an empty array. 
+*/
+
 let arr = [1, 2, 3, 4, 5];
 
 let newArr1 = arr.filter((e) => {
