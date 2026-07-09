@@ -10,7 +10,7 @@ let newArr2 = arr.map(num => num + 1);
 console.log(newArr1);
 console.log(newArr2);
 
-// ************ I M P ************
+// ********************************** I M P **********************************
 
 let newArr3 = arr.map((e) => e > 2);
 
