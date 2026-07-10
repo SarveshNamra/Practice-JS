@@ -12,7 +12,7 @@ let mostActiveUser = userActivity.reduce((acc, curr) => {
     return acc.activityCount > curr.activityCount ? acc : curr;
 });
 
-// console.log(mostActiveUser);
+console.log(mostActiveUser);
 
 // Task :- Create an expense report that sums up the total expenses for each category using reduce method.
 
@@ -28,7 +28,7 @@ let expensesReport = expenses.reduce((report, expenses) => {
     return report;
 }, { Food: 0, Utilities: 0 });
 
-// console.log(expensesReport);
+console.log(expensesReport);
 
 // Task :- Sort the pending tasks based on their priority.
 
@@ -42,4 +42,4 @@ let predictSortedTasks = tasks
     .filter((task) => !task.completed)
     .sort((a, b) => a.priority - b.priority);
 
-// console.log(predictSortedTasks);
+console.log(predictSortedTasks);
